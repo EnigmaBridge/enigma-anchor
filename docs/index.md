@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+## Get The Job Done
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Login as the ***enigma-anchor*** user with `sudo - enigma-anchor`. Once you start the ***enigma-anchor***, you're welcome with the a short summary of the actual status of the certificate management and a list of actions that may be urgent.
 
-## Commands
+You are then able to use one of the pre-defined commands:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* `create <domain name>` - creates a certificate for a given *domain name*; 
+* `manage <domain name> [app]` - requests management of a domain, you can optionally add an application you want to manage - the default is a web server;
+* `revoke <domain name> [app]` - revokes certificate for a particular domain (and application, if specified);
+* `check [domain name] [app]` - returns certificates and their expiry dates;
+* `list` - shows all the domains and applications managed by ***enigma-anchor***; 
+* `admin` - show and allow changing contact details for reports;
+* `kpi` - display key performance indicators (KPI).
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

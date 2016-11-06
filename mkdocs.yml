@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Enigma Bridge Anchors (enigma-anchor)
+theme: readthedocs
+pages:
+ - About: 'about.md'
+ - Users: 'index.md'
+ - Details: 'details.md'
+ - How It Works: 'implementation.md'
+
