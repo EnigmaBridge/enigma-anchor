@@ -1,5 +1,6 @@
-site_name: Enigma Bridge Anchors (enigma-anchor)
+site_name: Enigma Bridge Anchors<br/>(enigma-anchor)
 theme: readthedocs
+copyright: (c) 2016 Enigma Bridge Ltd
 pages:
  - About: 'about.md'
  - Users: 'index.md'
