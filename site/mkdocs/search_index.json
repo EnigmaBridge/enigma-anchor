@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/about/", 
-            "text": "Enigma Anchor is a project of \nEnigma Bridge Ltd\n. We are a cloud security company building solutions for simple and strong encryption in the cloud. This project's goal is to create a simple and complete solution for managing certificates with \nLetsencrypt certificate authority\n.\n\n\nOur goal is to create a user friendly front-end for managing certificates from their issuance to security and reporting of the system performance.", 
+            "text": "Enigma Anchor helps users manage their keys and certificates for web and internet applications. There is a large number of projects and technologies, which are rather clever and can significantly help improving your security. The problem is that their use is too complicated for someone who just wants to get job done.\n\n\nSome people use the term \nanchor\n or \ntrust anchor\n when they talk about an authority for which trust is assumed. For us, it's all about give you a reference point, where you can always go and get things done or learn more about how things work, if needed. We like the term \nanchor\n as it is easier to understand for people (instead of certificates, keys, RSA, key-pairs, PKI, CA, RA, and so on). We believe many people, including you, want to focus on things you enjoy rather than on tedious things that simply have to be done. \n\n\nEnigma Anchor is a project of \nEnigma Bridge Ltd\n. We are a cloud security company building solutions for simple and strong encryption in the cloud. This project's goal is to create a simple and complete solution for managing certificates with \nLetsencrypt certificate authority\n.\n\n\nOur goal is to create user friendly tools for managing your security, tools that would also tell you how they perform so you have time to resolve potential problems.", 
             "title": "About"
         }, 
         {
@@ -17,13 +17,18 @@
         }, 
         {
             "location": "/details/", 
-            "text": "Starting enigma-anchor\n\n\nThe recommended way of using \nenigma-anchor\n is to login as the \nenigma-anchor\n user. This will automatically start a command line interface with a pre-defined set of commands for certificate management. It is also possible to limit the access of this user to your server's resources and manage the use of the account.", 
+            "text": "Starting enigma-anchor\n\n\nThe recommended way of using \nenigma-anchor\n is to login as the \nenigma-anchor\n user. This will automatically start a command line interface with a pre-defined set of commands for certificate management. It is also possible to limit the access of this user to your server's resources and manage the use of the account.\n\n\nProcess of Issuing Certificates", 
             "title": "Details"
         }, 
         {
             "location": "/details/#starting-enigma-anchor", 
             "text": "The recommended way of using  enigma-anchor  is to login as the  enigma-anchor  user. This will automatically start a command line interface with a pre-defined set of commands for certificate management. It is also possible to limit the access of this user to your server's resources and manage the use of the account.", 
             "title": "Starting enigma-anchor"
+        }, 
+        {
+            "location": "/details/#process-of-issuing-certificates", 
+            "text": "", 
+            "title": "Process of Issuing Certificates"
         }, 
         {
             "location": "/implementation/", 
